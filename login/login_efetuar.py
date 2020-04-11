@@ -18,4 +18,6 @@ class Login_efetuar:
             print("Esta logado no minha conta: [ perfil:",json["perfil"],"]") # aqui pode ser retorna um True 
         else:
             print("Email ou senha invalida!") # aqui pode ser retorna um False 
-        
+      
+            
+    
