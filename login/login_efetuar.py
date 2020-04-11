@@ -1,4 +1,4 @@
-json = {"email":"a.pissulin@gmail.com", "senha":"123456", "perfil":"adm"} # Retorno do banco de dados 
+ 
 
 class Login_efetuar:
     """ Classe para efetuar o login no sistema """
@@ -12,7 +12,8 @@ class Login_efetuar:
 
     def login_check(self):
         """ Metodo para checar se o login é valido  """
-        global json 
+        json = {"email":"a.pissulin@gmail.com", "senha":"123456", "perfil":"adm"} # Retorno do banco de dados
+        
         if(self.email == json["email"] and self.senha == json["senha"]):
             print("Esta logado no minha conta: [ perfil:",json["perfil"],"]") # aqui pode ser retorna um True 
         else:
