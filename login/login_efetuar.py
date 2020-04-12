@@ -7,8 +7,7 @@ class Login_efetuar:
         """ Email e senha vem do formulario do front """
         self.email = email
         self.senha = senha 
-         
-         
+              
 
     def login_check(self):
         """ Metodo para checar se o login é valido  """
