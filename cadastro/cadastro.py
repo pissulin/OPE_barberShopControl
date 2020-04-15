@@ -1,12 +1,13 @@
-from cadastroDB import clientes
+from cadastro.cadastroDB import salvar
  
 class Cadastro:
       
-    def __init__(self,**args):
+    def __init__(self,*args):
         pass
     
     def cadastro_insert(self, *args):
-        clientes.append(args)
+        salvar(args)
+        print(args)
     
     
     def cadastro_update(self):
